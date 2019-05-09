@@ -1,0 +1,23 @@
+@import 'variables.scss';
+@import 'components/madlib_form.scss';
+@import 'header.scss';
+
+.snake-game {
+    height: 350px;
+    width: 350px;
+    background: lightgrey;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 20%;
+ 
+    button{
+        background: aquamarine;
+        border-radius: 15%;
+    }
+}
