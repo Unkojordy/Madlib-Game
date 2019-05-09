@@ -2,6 +2,10 @@
 @import 'components/madlib_form.scss';
 @import 'header.scss';
 
+body {
+    font-family: $font-primary;
+}
+
 .snake-game {
     height: 350px;
     width: 350px;
